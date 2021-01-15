@@ -7,3 +7,12 @@ C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\C
 C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\Common\obj\Debug\netstandard2.0\Common.csproj.CoreCompileInputs.cache
 C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\Common\obj\Debug\netstandard2.0\Common.dll
 C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\Common\obj\Debug\netstandard2.0\Common.pdb
+C:\Users\quocd\Source\Repos\BarcodeSickTCP\Common\bin\Debug\netstandard2.0\Common.deps.json
+C:\Users\quocd\Source\Repos\BarcodeSickTCP\Common\bin\Debug\netstandard2.0\Common.dll
+C:\Users\quocd\Source\Repos\BarcodeSickTCP\Common\bin\Debug\netstandard2.0\Common.pdb
+C:\Users\quocd\Source\Repos\BarcodeSickTCP\Common\obj\Debug\netstandard2.0\Common.csprojAssemblyReference.cache
+C:\Users\quocd\Source\Repos\BarcodeSickTCP\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+C:\Users\quocd\Source\Repos\BarcodeSickTCP\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+C:\Users\quocd\Source\Repos\BarcodeSickTCP\Common\obj\Debug\netstandard2.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\quocd\Source\Repos\BarcodeSickTCP\Common\obj\Debug\netstandard2.0\Common.dll
+C:\Users\quocd\Source\Repos\BarcodeSickTCP\Common\obj\Debug\netstandard2.0\Common.pdb

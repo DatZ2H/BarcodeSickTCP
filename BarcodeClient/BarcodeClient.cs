@@ -41,12 +41,14 @@ namespace Client
             PrintConnectionState($"Socket connected to {client.Socket.RemoteEndPoint.ToString()}");
 
             // Start sending & receiving
-            Thread sendThread = new Thread(() => Send());
+            //Thread sendThread = new Thread(() => Send());
             //Thread receiveThread = new Thread(() => Receive(client));
             Thread CheckIncomingMessageThread = new Thread(() => CheckIncomingMessage());
+             Thread TriggerThread = new Thread(() => Trigger());
 
             //sendThread.Start();
             //receiveThread.Start();
+            TriggerThread.Start();
 
             Receive();
             // Console.WriteLine($"Gia tri cua Buffer list   {client.BufferList.Count}");
@@ -66,32 +68,33 @@ namespace Client
         /// Sends a message to the server
         /// </summary>
         /// <param name="client"></param>
-        public  void Send()
+        public void Send(String MsgSend)
         {
             // Build message
-            client.CreateOutgoingMessage("TrigerOn");
+            client.CreateOutgoingMessage(MsgSend);
             byte[] data = client.OutgoingMessageToBytes();
 
             // Send it on a 1 second interval
-            while (true)
+
+
+
+            Thread.Sleep(3000);
+            try
             {
-                Thread.Sleep(3000);
-                try
-                {
-                    client.Socket.BeginSend(data, 0, data.Length, SocketFlags.None, new AsyncCallback(SendCallback), client);
-                }
-                catch (SocketException)
-                {
-                    Console.WriteLine("Server Closed");
-                    client.Close();
-                    Thread.CurrentThread.Abort();
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.Message);
-                    Thread.CurrentThread.Abort();
-                }
+                client.Socket.BeginSend(data, 0, data.Length, SocketFlags.None, new AsyncCallback(SendCallback), client);
             }
+            catch (SocketException)
+            {
+                Console.WriteLine("Server Closed");
+                client.Close();
+                Thread.CurrentThread.Abort();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                Thread.CurrentThread.Abort();
+            }
+
         }
 
         /// <summary>
@@ -175,6 +178,36 @@ namespace Client
                 {
                     Thread.Sleep(1000);
                 }
+            }
+        }
+        public void Trigger()
+        {
+
+            while (true)
+            {
+
+
+
+                Thread.Sleep(3000);
+                Console.WriteLine("Trigger off");
+                Send(client.MsgTriggerOFF);
+                try
+                {
+                    Send(client.MsgTriggerON);
+                    Console.WriteLine("Trigger pedding");
+                }
+                catch (SocketException)
+                {
+                    Console.WriteLine("Server Closed");
+                    client.Close();
+                    Thread.CurrentThread.Abort();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    Thread.CurrentThread.Abort();
+                }
+                Console.WriteLine("Trigger ON");
             }
         }
 

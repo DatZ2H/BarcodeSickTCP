@@ -17,7 +17,7 @@ namespace Common
         // Size of receive buffer
         public int BufferSize { get; set; } = 1024;
         // Receive buffer
-        public int BarcodeLengthSize { get; set; } = 2;
+        public int BarcodeLengthSize { get; set; } = 4;
         public byte[] Buffer { get; set; }
         public byte[] testArray { get; set; }
 
@@ -35,6 +35,10 @@ namespace Common
         // Terminator for each message
         public string MessageTerminatorStart { get; set; } = "<START>";
         public string MessageTerminatorStop { get; set; } = "<STOP>";
+
+        public string MsgTriggerON { get; set; } = "TGON";
+
+        public string MsgTriggerOFF { get; set; } = "TGOF";
 
         public List<byte> MsgTerminatorStart { get; set; }
 
@@ -110,7 +114,7 @@ namespace Common
                     {
                         int BarcodeLength = 0;
 
-                        BarcodeLength = ConvertByteArrayToInt16(BufferList.GetRange(MsgTerminatorStart.Count, BarcodeLengthSize).ToArray());
+                        BarcodeLength = Int32.Parse(Encoding.ASCII.GetString(BufferList.ToArray(), MsgTerminatorStart.Count,BarcodeLengthSize-1));
                         // Console.WriteLine($" gia tri cuar con ver la {ConvertByteArrayToInt32(BufferList.GetRange(MsgTerminatorStart.Count, BarcodeLengthSize).ToArray())} ");
                         int LengthToMsgStop = MsgTerminatorStart.Count + BarcodeLengthSize + BarcodeLength;
 

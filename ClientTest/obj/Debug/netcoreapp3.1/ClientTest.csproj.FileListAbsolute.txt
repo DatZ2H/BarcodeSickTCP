@@ -1,0 +1,16 @@
+C:\Users\quocd\Source\Repos\BarcodeSickTCP\ClientTest\bin\Debug\netcoreapp3.1\ClientTest.exe
+C:\Users\quocd\Source\Repos\BarcodeSickTCP\ClientTest\bin\Debug\netcoreapp3.1\ClientTest.deps.json
+C:\Users\quocd\Source\Repos\BarcodeSickTCP\ClientTest\bin\Debug\netcoreapp3.1\ClientTest.runtimeconfig.json
+C:\Users\quocd\Source\Repos\BarcodeSickTCP\ClientTest\bin\Debug\netcoreapp3.1\ClientTest.runtimeconfig.dev.json
+C:\Users\quocd\Source\Repos\BarcodeSickTCP\ClientTest\bin\Debug\netcoreapp3.1\ClientTest.dll
+C:\Users\quocd\Source\Repos\BarcodeSickTCP\ClientTest\bin\Debug\netcoreapp3.1\ClientTest.pdb
+C:\Users\quocd\Source\Repos\BarcodeSickTCP\ClientTest\bin\Debug\netcoreapp3.1\Common.dll
+C:\Users\quocd\Source\Repos\BarcodeSickTCP\ClientTest\bin\Debug\netcoreapp3.1\Common.pdb
+C:\Users\quocd\Source\Repos\BarcodeSickTCP\ClientTest\obj\Debug\netcoreapp3.1\ClientTest.csprojAssemblyReference.cache
+C:\Users\quocd\Source\Repos\BarcodeSickTCP\ClientTest\obj\Debug\netcoreapp3.1\ClientTest.AssemblyInfoInputs.cache
+C:\Users\quocd\Source\Repos\BarcodeSickTCP\ClientTest\obj\Debug\netcoreapp3.1\ClientTest.AssemblyInfo.cs
+C:\Users\quocd\Source\Repos\BarcodeSickTCP\ClientTest\obj\Debug\netcoreapp3.1\ClientTest.csproj.CoreCompileInputs.cache
+C:\Users\quocd\Source\Repos\BarcodeSickTCP\ClientTest\obj\Debug\netcoreapp3.1\ClientTest.csproj.CopyComplete
+C:\Users\quocd\Source\Repos\BarcodeSickTCP\ClientTest\obj\Debug\netcoreapp3.1\ClientTest.dll
+C:\Users\quocd\Source\Repos\BarcodeSickTCP\ClientTest\obj\Debug\netcoreapp3.1\ClientTest.pdb
+C:\Users\quocd\Source\Repos\BarcodeSickTCP\ClientTest\obj\Debug\netcoreapp3.1\ClientTest.genruntimeconfig.cache
