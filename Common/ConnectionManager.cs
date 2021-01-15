@@ -6,7 +6,7 @@ namespace Common
 {
     public class ConnectionManager
     {
-        public static IPAddress LocalIPAddress { get { return IPAddress.Parse("192.168.1.30"); } }
+        public static IPAddress LocalIPAddress { get { return IPAddress.Parse("192.168.1.100"); } }
         public static int Port { get { return 2112; } }
         public static IPEndPoint EndPoint { get { return new IPEndPoint(LocalIPAddress, Port); } }
 

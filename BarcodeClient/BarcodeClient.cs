@@ -42,7 +42,7 @@ namespace Client
 
             // Start sending & receiving
             //Thread sendThread = new Thread(() => Send());
-            //Thread receiveThread = new Thread(() => Receive(client));
+           // Thread receiveThread = new Thread(() => Receive(client));
             Thread CheckIncomingMessageThread = new Thread(() => CheckIncomingMessage());
              Thread TriggerThread = new Thread(() => Trigger());
 
@@ -58,10 +58,10 @@ namespace Client
 
             // Listen for threads to be aborted (occurs when socket looses it's connection with the server)
             //while (sendThread.IsAlive && receiveThread.IsAlive) { }
-
+            //while ( receiveThread.IsAlive) { }
 
             // Attempt to reconnect
-            //Connect();
+           // Connect();
         }
 
         /// <summary>
@@ -77,24 +77,30 @@ namespace Client
             // Send it on a 1 second interval
 
 
+            if (client.Socket.Connected) {
+                
+                try
+                {
+                    client.Socket.BeginSend(data, 0, data.Length, SocketFlags.None, new AsyncCallback(SendCallback), client);
+                }
+                catch (SocketException)
+                {
+                    Console.WriteLine("Server Closed");
+                    client.Close();
 
-            Thread.Sleep(3000);
-            try
-            {
-                client.Socket.BeginSend(data, 0, data.Length, SocketFlags.None, new AsyncCallback(SendCallback), client);
-            }
-            catch (SocketException)
-            {
-                Console.WriteLine("Server Closed");
-                client.Close();
-                Thread.CurrentThread.Abort();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-                Thread.CurrentThread.Abort();
-            }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
 
+                }
+            }
+            else
+            {
+                Console.WriteLine("ket thuc send roi day");
+               // Connect();
+                Thread.Sleep(3000);
+            }
         }
 
         /// <summary>
@@ -183,12 +189,10 @@ namespace Client
         public void Trigger()
         {
 
-            while (true)
+            while (client.Socket.Connected)
             {
 
-
-
-                Thread.Sleep(3000);
+                
                 Console.WriteLine("Trigger off");
                 Send(client.MsgTriggerOFF);
                 try
@@ -200,14 +204,15 @@ namespace Client
                 {
                     Console.WriteLine("Server Closed");
                     client.Close();
-                    Thread.CurrentThread.Abort();
+                    break;
                 }
                 catch (Exception ex)
                 {
                     Console.WriteLine(ex.Message);
-                    Thread.CurrentThread.Abort();
+                    break;
                 }
                 Console.WriteLine("Trigger ON");
+                Thread.Sleep(3000);
             }
         }
 
