@@ -1,0 +1,16 @@
+C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\BarcodeSickSimulator\bin\Debug\netcoreapp3.1\BarcodeSickSimulator.exe
+C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\BarcodeSickSimulator\bin\Debug\netcoreapp3.1\BarcodeSickSimulator.deps.json
+C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\BarcodeSickSimulator\bin\Debug\netcoreapp3.1\BarcodeSickSimulator.runtimeconfig.json
+C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\BarcodeSickSimulator\bin\Debug\netcoreapp3.1\BarcodeSickSimulator.runtimeconfig.dev.json
+C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\BarcodeSickSimulator\bin\Debug\netcoreapp3.1\BarcodeSickSimulator.dll
+C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\BarcodeSickSimulator\bin\Debug\netcoreapp3.1\BarcodeSickSimulator.pdb
+C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\BarcodeSickSimulator\obj\Debug\netcoreapp3.1\BarcodeSickSimulator.AssemblyInfoInputs.cache
+C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\BarcodeSickSimulator\obj\Debug\netcoreapp3.1\BarcodeSickSimulator.AssemblyInfo.cs
+C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\BarcodeSickSimulator\obj\Debug\netcoreapp3.1\BarcodeSickSimulator.csproj.CoreCompileInputs.cache
+C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\BarcodeSickSimulator\obj\Debug\netcoreapp3.1\BarcodeSickSimulator.dll
+C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\BarcodeSickSimulator\obj\Debug\netcoreapp3.1\BarcodeSickSimulator.pdb
+C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\BarcodeSickSimulator\obj\Debug\netcoreapp3.1\BarcodeSickSimulator.genruntimeconfig.cache
+C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\BarcodeSickSimulator\bin\Debug\netcoreapp3.1\Common.dll
+C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\BarcodeSickSimulator\bin\Debug\netcoreapp3.1\Common.pdb
+C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\BarcodeSickSimulator\obj\Debug\netcoreapp3.1\BarcodeSickSimulator.csproj.CopyComplete
+C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\BarcodeSickSimulator\obj\Debug\netcoreapp3.1\BarcodeSickSimulator.csprojAssemblyReference.cache

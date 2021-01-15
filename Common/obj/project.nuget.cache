@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "OnDb8/vG4UJFOlMVuIyVtakVfv/nf08SoA957I8PGgd+LiK3nHP7tR02IkhWDlntPWnKonMM61faD6C2r5CO9g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\quocd\\Source\\Repos\\BarcodeSickTCP\\Common\\Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\quocd\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\quocd\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

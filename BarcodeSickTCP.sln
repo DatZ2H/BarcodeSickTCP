@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarcodeClient", "BarcodeClient\BarcodeClient.csproj", "{FD546DE9-DE4A-45D8-A895-D0E1EFBA0E27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{F062EF2E-4BB4-41DE-B208-BE7C936891EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarcoderServer", "BarcoderServer\BarcoderServer.csproj", "{749BC9D9-8364-4434-825E-E7FB3425145B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarcodeSickSimulator", "BarcodeSickSimulator\BarcodeSickSimulator.csproj", "{C48547FF-9CB2-4C65-B6A5-2B7B6A32A1AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD546DE9-DE4A-45D8-A895-D0E1EFBA0E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD546DE9-DE4A-45D8-A895-D0E1EFBA0E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD546DE9-DE4A-45D8-A895-D0E1EFBA0E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD546DE9-DE4A-45D8-A895-D0E1EFBA0E27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F062EF2E-4BB4-41DE-B208-BE7C936891EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F062EF2E-4BB4-41DE-B208-BE7C936891EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F062EF2E-4BB4-41DE-B208-BE7C936891EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F062EF2E-4BB4-41DE-B208-BE7C936891EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{749BC9D9-8364-4434-825E-E7FB3425145B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{749BC9D9-8364-4434-825E-E7FB3425145B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{749BC9D9-8364-4434-825E-E7FB3425145B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{749BC9D9-8364-4434-825E-E7FB3425145B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C48547FF-9CB2-4C65-B6A5-2B7B6A32A1AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C48547FF-9CB2-4C65-B6A5-2B7B6A32A1AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C48547FF-9CB2-4C65-B6A5-2B7B6A32A1AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C48547FF-9CB2-4C65-B6A5-2B7B6A32A1AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B486946-C42A-4857-B35A-33E1709E5416}
+	EndGlobalSection
+EndGlobal

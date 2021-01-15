@@ -1,0 +1,13 @@
+C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\Bitconver\obj\Debug\netcoreapp3.1\Bitconver.csprojAssemblyReference.cache
+C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\Bitconver\obj\Debug\netcoreapp3.1\Bitconver.AssemblyInfoInputs.cache
+C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\Bitconver\obj\Debug\netcoreapp3.1\Bitconver.AssemblyInfo.cs
+C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\Bitconver\obj\Debug\netcoreapp3.1\Bitconver.csproj.CoreCompileInputs.cache
+C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\Bitconver\bin\Debug\netcoreapp3.1\Bitconver.exe
+C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\Bitconver\bin\Debug\netcoreapp3.1\Bitconver.deps.json
+C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\Bitconver\bin\Debug\netcoreapp3.1\Bitconver.runtimeconfig.json
+C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\Bitconver\bin\Debug\netcoreapp3.1\Bitconver.runtimeconfig.dev.json
+C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\Bitconver\bin\Debug\netcoreapp3.1\Bitconver.dll
+C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\Bitconver\bin\Debug\netcoreapp3.1\Bitconver.pdb
+C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\Bitconver\obj\Debug\netcoreapp3.1\Bitconver.dll
+C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\Bitconver\obj\Debug\netcoreapp3.1\Bitconver.pdb
+C:\Users\quocd\Source\Repos\BarcodeSickTCP-20210107T015518Z-001\BarcodeSickTCP\Bitconver\obj\Debug\netcoreapp3.1\Bitconver.genruntimeconfig.cache
